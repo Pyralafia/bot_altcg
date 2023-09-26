@@ -30,8 +30,7 @@ namespace ALTCG_bot
 
         public async Task MainAsync()
         {
-            //string token = File.ReadAllText("token.txt");
-            string token = "MTA3NjkzMTA4MTE4MzQyODYwOQ.GTemWj.Fum74Erg8ylFnTAl7jaODIIARuF1wTvNOM2HJg";
+            string token = File.ReadAllText("token.txt");
 
             altcgBot = this;
 
